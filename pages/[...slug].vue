@@ -1,0 +1,20 @@
+<script setup lang='ts'>
+const router = useRouter()
+</script>
+
+<template>
+  <div class="flex-center flex-col sm:flex-row" style="height: calc(100vh - 60px);">
+    <img src="/404.png" class="mb-10 sm:(mb-0 mr-30)" alt="404">
+    <div class="flex-center flex-col">
+      <h2 class="text-8xl font-bold text-gray/20">
+        404
+      </h2>
+      <h4 class="my-8 text-2xl text-gray/40">
+        抱歉，您访问的页面不存在~~~
+      </h4>
+      <el-button type="primary" class="text-white" @click="router.replace('/')">
+        返回首页
+      </el-button>
+    </div>
+  </div>
+</template>

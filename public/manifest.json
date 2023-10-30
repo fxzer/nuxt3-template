@@ -1,0 +1,64 @@
+{
+    "name": "犀思云",
+    "icons": [
+        {
+            "src": "/logos/logo_512.png",
+            "types": "img/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/logos/logo_384.png",
+            "types": "img/png",
+            "sizes": "384x384",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/logos/logo_192.png",
+            "types": "img/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+          "src": "/logos/logo_180.png",
+          "types": "img/png",
+          "sizes": "180x180",
+          "purpose": "any"
+      },
+      {
+        "src": "/logos/logo_128.png",
+        "types": "img/png",
+        "sizes": "128x128",
+        "purpose": "maskable"
+    },
+      {
+          "src": "/logos/logo_120.png",
+          "types": "img/png",
+          "sizes": "120x120",
+          "purpose": "any"
+      },
+        
+        {
+            "src": "/logos/logo_96.png",
+            "types": "img/png",
+            "sizes": "96x96",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/logos/logo_72.png",
+            "types": "img/png",
+            "sizes": "72x72",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/logos/logo_48.png",
+            "types": "img/png",
+            "sizes": "48x48",
+            "purpose": "maskable"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "display": "fullscreen",
+    "background_color": "#FCF2E2",
+    "theme_color": "#FCF2E2"
+  }
