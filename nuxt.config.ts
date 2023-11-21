@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       cssnano: {},
     },
   },
-  css: ['assets/css/main.scss'],
+  css: ['assets/style/main.scss'],
   sitemap: {
     siteUrl: 'https://www.xxx.com',
   },

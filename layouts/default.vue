@@ -6,7 +6,7 @@ import Footer from './default/Footer.vue'
 <template>
   <div class="w-full text-sm">
     <Header />
-    <main id="content" class="w-full overflow-auto pt-16">
+    <main id="content" class="w-full overflow-auto p-4">
       <slot />
     </main>
     <Footer />

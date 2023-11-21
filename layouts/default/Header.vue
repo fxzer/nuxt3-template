@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed left-0 top-0 z-500 h-16 w-full flex-between-center whitespace-nowrap bg-white px-8 shadow-gray-300/80 shadow-sm">
+  <header class="h-16 flex-between-center px-8 shadow-gray-300/80 shadow-sm">
     <img src="/logo.svg" alt="" class="wh-50px">
     <div>
       <div class="space-x-8">

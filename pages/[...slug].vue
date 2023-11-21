@@ -12,9 +12,9 @@ const router = useRouter()
       <h4 class="my-8 text-2xl text-gray/40">
         抱歉，您访问的页面不存在~~~
       </h4>
-      <el-button type="primary" class="text-white" @click="router.replace('/')">
+      <button class="rounded-md bg-blue p-2 text-white" @click="router.replace('/')">
         返回首页
-      </el-button>
+      </button>
     </div>
   </div>
 </template>

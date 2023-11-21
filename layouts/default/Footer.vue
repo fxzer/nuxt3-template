@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-cxp-dark text-cxp-gray-200 w-full flex justify-around xl:justify-center">
+  <footer class="w-full flex justify-around">
     Footer
   </footer>
 </template>

@@ -4,6 +4,7 @@
 
 <template>
   <div>
+    <TheTitle />
     news work!
     <div class="space-x-8">
       <nuxt-link to="/news/1">

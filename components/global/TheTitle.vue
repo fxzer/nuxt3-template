@@ -1,12 +1,13 @@
 <script setup lang='ts'>
-const start = useStart()
+
 </script>
 
 <template>
-  <div>
-    <div>Home Page {{ start }}</div>
+  <div class="text-2xl font-bold">
+    the global title work!
   </div>
 </template>
 
 <style scoped lang='scss'>
+
 </style>
