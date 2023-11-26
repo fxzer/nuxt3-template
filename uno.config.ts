@@ -1,6 +1,7 @@
 import {
   defineConfig,
-  presetUno, transformerDirectives,
+  presetUno,
+  transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
 import presetRemToPx from '@unocss/preset-rem-to-px'
