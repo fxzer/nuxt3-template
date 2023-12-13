@@ -9,7 +9,7 @@
 ## 安装依赖
 
 ```bash
-# pnpm 
+# pnpm
 pnpm install
 ```
 
@@ -23,12 +23,12 @@ pnpm dev
 
 ## 打包构建
 
-
 ```bash
 pnpm  build
 ```
 
 ## 项目预览
+
 ```bash
 pnpm preview
 ```

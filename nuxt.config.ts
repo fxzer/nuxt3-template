@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     port: 8888,
   },
   modules: [
+    'nuxt-icon',
     '@unocss/nuxt',
     '@vueuse/nuxt',
     '@nuxtjs/robots',
@@ -18,8 +19,8 @@ export default defineNuxtConfig({
     },
   },
   css: ['assets/style/main.scss'],
-  sitemap: {
-    siteUrl: 'https://www.xxx.com',
+  site: {
+    url: 'https://www.xxx.com',
   },
   nitro: {
     prerender: {
@@ -35,6 +36,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    // baseURL: isVercel ? '/' : '/xxx/', /* 根据环境决定路由前缀 */
     head: {
       title: 'websilte global title',
       meta: [

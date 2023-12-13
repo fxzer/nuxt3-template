@@ -1,5 +1,6 @@
 import {
   defineConfig,
+  presetAttributify,
   presetUno,
   transformerDirectives,
   transformerVariantGroup,
@@ -9,9 +10,10 @@ import presetRemToPx from '@unocss/preset-rem-to-px'
 export default defineConfig({
   shortcuts: [
     ['w-bx', 'px-5  xl:px-0 xl:(w-1200px mx-auto)'],
-    ['flex-center', 'flex justify-center items-center'],
+    ['flex-x-center', 'flex justify-center'],
     ['flex-start-center', 'flex justify-start items-center'],
     ['flex-between-center', 'flex justify-between items-center'],
+    ['flex-around-center', 'flex justify-around items-center'],
     // 宽高相同
     [/^wh-(.+)$/, ([, c]) => `w-${c}  h-${c}`],
   ],
@@ -32,6 +34,7 @@ export default defineConfig({
   },
   presets: [
     presetUno(),
+    presetAttributify(),
     presetRemToPx(),
   ],
   transformers: [

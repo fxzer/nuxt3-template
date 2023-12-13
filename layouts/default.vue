@@ -14,7 +14,7 @@ import Footer from './default/Footer.vue'
 </template>
 
 <style scoped lang="scss">
-#content{
+#content {
   height: calc(100vh - 100px);
 }
 #content {
@@ -32,9 +32,9 @@ import Footer from './default/Footer.vue'
       border-radius: 5px;
       width: 6px;
       background: $thumb-bg;
-      opacity: .1;
-      &:hover{
-         background-color: #cbcbcb;
+      opacity: 0.1;
+      &:hover {
+        background-color: #cbcbcb;
         transition: opacity 340ms ease-out;
       }
     }
