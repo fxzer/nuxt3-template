@@ -1,9 +1,23 @@
 export default defineNuxtConfig({
+  runtimeConfig: {
+    // 只在服务器端可用的私有键
+    apiSecret: '123',
+    apiOther: 'xxx',
+    // public中的键也可以在客户端使用
+    public: {
+      apiBase: '/api',
+      apiBase2: '/api2',
+    },
+  },
+  vue: {
+    defineModel: true,
+    propsDestructure: true,
+  },
   experimental: {
     payloadExtraction: false,
   },
   devServer: {
-    port: 8888,
+    port: 9898,
   },
   modules: [
     'nuxt-icon',
@@ -33,50 +47,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  app: {
-    // baseURL: isVercel ? '/' : '/xxx/', /* 根据环境决定路由前缀 */
-    head: {
-      title: 'websilte global title',
-      meta: [
-        {
-          name: 'viewport',
-          content: 'width=device-width, initial-scale=1',
-        },
-        {
-          name: 'keywords',
-          content: 'websilte global keywords',
-        },
-        {
-          name: 'description',
-          content:
-            'websilte global description',
-        },
-        {
-          charset: 'utf-8',
-        },
-        { name: 'theme-color', content: '#FCF2E2' }, // PWA移动浏览器顶部主题颜色
-        // 添加百度验证
-        // {
-        //   name: 'baidu-site-verification',
-        //   content: 'codeva-xPGHhJKk8H',
-        // },
-      ],
-      link: [
-        {
-          hid: 'icon',
-          rel: 'icon',
-          href: '/logo.ico',
-        },
-        {
-          hid: 'icon',
-          rel: 'icon',
-          href: '/logo.svg',
-        },
-        { rel: 'manifest', href: '/manifest.json' },
-        // 网址规范化
-        { rel: 'canonical', href: 'https://www.xxx.com' },
-      ],
-      script: [],
-    },
-  },
+
 })

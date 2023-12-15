@@ -5,9 +5,9 @@ export default antfu(
     unocss: true,
     formatters: true,
     /** 覆盖 antfu/eslint-config  原本规则 */
-    // rules: {
-
-    // },
+    rules: {
+      'no-console': 'off',
+    },
 
   },
 )
