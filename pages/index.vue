@@ -1,11 +1,14 @@
 <script setup lang='ts'>
 const start = useStart()
-const runtimeConfig = useRuntimeConfig()
-console.log('[ runtimeConfig ]-3', runtimeConfig)
-const appConfig = useAppConfig()
-console.log('[ appConfig ]-6', appConfig)
+// const runtimeConfig = useRuntimeConfig()
+// const appConfig = useAppConfig()
 const str = ref('')
 const requiredStr = ref('required str')
+
+const testResult = await useFetch('/api/test', {
+  method: 'POST',
+})
+console.log('[ testResult ]-9 =====', testResult.data.value)
 </script>
 
 <template>
