@@ -19,7 +19,11 @@ console.log('[ composableRunCfg ]-16', composableRunCfg)
 
 <template>
   <div>
-    <div>Home Page {{ start }}</div>
+    <div>
+      <Icon name="uil:github" color="black" />
+
+      Home Page {{ start }}
+    </div>
     <div>
       <h3 my-2 text-center>
         DefineModelDemo （Vue3 实验性功能 defineModel）

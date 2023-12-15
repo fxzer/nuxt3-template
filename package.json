@@ -12,6 +12,8 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "info": "nuxi info",
+    "analyze": "nuxt analyze",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lintf": "eslint . --fix",
@@ -19,7 +21,7 @@
     "prepare": "simple-git-hooks",
     "release": "standard-version",
     "commitlint": "commitlint --config commitlint.config.cjs -e -V",
-    "clean:cache": " rimraf .eslintcache && rimraf node_modules && pnpm install"
+    "clean:cache": "rimraf .nuxt && rimraf .output && rimraf node_modules && pnpm install"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",

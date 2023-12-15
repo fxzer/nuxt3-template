@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
   typescript: { // 启用 dev/build 类型检查
     typeCheck: true,
   },
@@ -20,6 +20,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
+  devtools: { enabled: true },
   devServer: {
     port: 9898,
   },
