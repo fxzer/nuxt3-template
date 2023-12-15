@@ -1,13 +1,15 @@
 <script setup lang='ts'>
-/** 应用简洁布局 */
-definePageMeta({
-  layout: 'concise',
-})
+
 </script>
 
 <template>
   <div>
-    about work!
+    <div>
+      Concise Layout works!
+    </div>
+    <div>
+      <slot />
+    </div>
   </div>
 </template>
 

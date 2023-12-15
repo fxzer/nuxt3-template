@@ -4,7 +4,7 @@ export default antfu(
   {
     unocss: true,
     formatters: true,
-    /** 重写 antfu/eslint-config 规则 */
+    /** 覆盖 antfu/eslint-config  原本规则 */
     // rules: {
 
     // },
