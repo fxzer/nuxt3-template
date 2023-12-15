@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  ssr: false,
   runtimeConfig: {
     // 只在服务器端可用的私有键
     apiSecret: '123',
@@ -26,13 +27,11 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     'nuxt-simple-sitemap',
   ],
-  postcss: {
-    plugins: {
-    },
-  },
   css: ['assets/style/main.scss'],
   site: {
     url: 'https://www.xxx.com',
+  },
+  routeRules: {
   },
   nitro: {
     prerender: {

@@ -40,6 +40,7 @@
     "@unocss/preset-rem-to-px": "^0.58.0",
     "@vueuse/core": "^10.7.0",
     "@vueuse/nuxt": "^10.7.0",
+    "eslint-plugin-format": "^0.1.0",
     "lint-staged": "^15.2.0",
     "nuxt": "^3.8.2",
     "nuxt-icon": "^0.6.7",
@@ -56,6 +57,6 @@
     "commit-msg": "pnpm run commitlint"
   },
   "lint-staged": {
-    "*": "eslint . --fix"
+    "*": "pnpm lintf"
   }
 }

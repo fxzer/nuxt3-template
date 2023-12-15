@@ -5,10 +5,16 @@ const start = useStart()
 const str = ref('')
 const requiredStr = ref('required str')
 
-const testResult = await useFetch('/api/test', {
-  method: 'POST',
-})
-console.log('[ testResult ]-9 =====', testResult.data.value)
+// const testResult = await useFetch('/api/test', {
+//   method: 'POST',
+// })
+// console.log('[ testResult ]-9 =====', testResult.data.value)
+
+const tu = testUtil()
+console.log('[ tu ]-13', tu)
+
+const composableRunCfg = await useMyComposable()
+console.log('[ composableRunCfg ]-16', composableRunCfg)
 </script>
 
 <template>

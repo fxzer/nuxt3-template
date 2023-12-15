@@ -10,6 +10,7 @@ import presetRemToPx from '@unocss/preset-rem-to-px'
 export default defineConfig({
   shortcuts: [
     ['w-bx', 'px-5  xl:px-0 xl:(w-1200px mx-auto)'],
+    ['flex-center', 'flex items-center justify-center'],
     ['flex-x-center', 'flex justify-center'],
     ['flex-start-center', 'flex justify-start items-center'],
     ['flex-between-center', 'flex justify-between items-center'],
