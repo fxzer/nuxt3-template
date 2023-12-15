@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   ssr: false,
+  typescript: { // 启用 dev/build 类型检查
+    typeCheck: true,
+  },
   runtimeConfig: {
     // 只在服务器端可用的私有键
     apiSecret: '123',
